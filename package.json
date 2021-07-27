@@ -1,5 +1,8 @@
 {
-  "name": "react-smooth-dnd",
+  "name": "@stefanfuchs/react-smooth-dnd",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.11.1",
   "description": "Drag and Drop library",
   "main": "./dist/index.js",
@@ -29,7 +32,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kutlugsahin/react-smooth-dnd.git"
+    "url": "https://github.com/stefanfuchs/react-smooth-dnd.git"
   },
   "devDependencies": {
     "@babel/core": "7.3.4",
@@ -49,6 +52,6 @@
   },
   "dependencies": {
     "smooth-dnd": "0.12.1",
-    "prop-types":">=15.6.0"
+    "prop-types": ">=15.6.0"
   }
 }
